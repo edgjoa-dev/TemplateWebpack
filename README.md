@@ -44,19 +44,19 @@ Crear archivo ***package.json*** con el siguiente comando:
 #
 Instalación de dependencias necesarias para configurar proyecto:
 >#
->**yarn add react react-dom**
- >**yarn add -D typescript @types/react @types/react-dom**
- >**yarn add -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript @babel/plugin-transform-runtime**
- >**yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin**
- >**yarn add -D babel-loader**
+>**yarn add react react-dom**  
+ >**yarn add -D typescript @types/react @types/react-dom**  
+ >**yarn add -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript @babel/plugin-transform-runtime**  
+ >**yarn add -D webpack webpack-cli webpack-dev-server html-webpack-plugin**  
+ >**yarn add -D babel-loader**  
  >#
 #
 Configurar y crear archivo llamado **tsconfig.json** en el ***root*** de la aplicación.
 >#
- >**yarn tsc --init --outDir dist/ --rootDir src**
- **NOTA:** si usas este comando no olvides descomentar la linea **"jsx":  "preserve",** el archivo de configuración.
-ó
- >**tsconfig personalizado:**
+ >**yarn tsc --init --outDir dist/ --rootDir src**  
+ **NOTA:** si usas este comando no olvides descomentar la linea **"jsx":  "preserve",** el archivo de configuración.  
+ó  
+ >**tsconfig personalizado:**  
  >#
 ```
   
@@ -153,7 +153,7 @@ stats: 'errors-only',
 #
 Crea él script dentro de ***packcage.json*** para poner online la aplicación:
 >#
->**"start":"webpack serve --config webpack/webpack.config.js --port 3001 --open",**
->**"build":"webpack --config webpack/webpack.config.js",**
->**"test":"echo \"Error: no test specified\" && exit 1"**
+>**"start":"webpack serve --config webpack/webpack.config.js --port 3001 --open",**  
+>**"build":"webpack --config webpack/webpack.config.js",**  
+>**"test":"echo \"Error: no test specified\" && exit 1"**  
 >#
