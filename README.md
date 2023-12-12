@@ -140,6 +140,6 @@ stats: 'errors-only',
 ```
 #
 Crea él script dentro de ***packcage.json*** para poner online la aplicación:
- >**"start":"webpack serve --config webpack/webpack.config.js --port 3001 --open"**
+ >**"start":"webpack serve --config webpack/webpack.config.js --port 3001 --open",**
 >**"build":"webpack --config webpack/webpack.config.js",**
 >**"test":  "echo \"Error: no test specified\" && exit 1"**
